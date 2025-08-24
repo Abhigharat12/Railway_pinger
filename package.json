@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "preinstall": "npm install --omit=dev || true",
     "start": "node index.js"
   },
   "dependencies": {
@@ -11,8 +12,7 @@
     "node-fetch": "^3.3.2"
   },
   "engines": {
-  "npm": ">=9.0.0",
-  "node": ">=18"
-}
-
+    "npm": ">=9.0.0",
+    "node": ">=18"
+  }
 }

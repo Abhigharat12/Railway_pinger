@@ -1,6 +1,7 @@
 {
   "name": "render-keepalive",
   "version": "1.0.0",
+  "description": "Keep Render app alive by pinging it every few minutes",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +12,6 @@
     "node-fetch": "^3.3.2"
   },
   "engines": {
-    "npm": ">=9.0.0",
     "node": ">=18"
   }
 }

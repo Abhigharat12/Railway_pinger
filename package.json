@@ -4,8 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
-  },
+  "preinstall": "npm install --omit=dev || true",
+  "start": "node index.js"
+}
+
   "dependencies": {
     "express": "^4.19.2",
     "node-fetch": "^3.3.2"
